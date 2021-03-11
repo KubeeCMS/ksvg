@@ -1,0 +1,22 @@
+{
+  "name": "kubeecms/ksvg",
+  "type": "wordpress-muplugin",
+  "license": "GNU",
+  "description":
+    "Full SVG Media support for ...",
+  "homepage": "https://github.com/kubeecms/ksvg/",
+  "keywords": ["kubeecms", "kubee", "kcms-ksvgs", "ksvgs"],
+  "support": {
+    "issues": "https://github.com/kubeecms/ksvg/issues/",
+    "forum": "https://discourse.kubee.com/"
+  },
+  "require": {
+    "php": ">=7.3"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.5"
+  },
+  "scripts": {
+    "test": ["phpcs --ignore=vendor --extensions=php --standard=PSR2 ."]
+  }
+}
