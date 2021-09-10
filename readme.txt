@@ -3,9 +3,9 @@ Contributors: Kubee
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZKUBEE
 Tags: svg, vector, safesvg, css, style, mime, mime type, embed, img, inline, animation, animate, js
 Requires at least: 4.8
-Tested up to: 5.7
+Tested up to: 5.8
 Requires PHP: 5.2
-Stable tag: 2.3.18
+Stable tag: 2.3.19
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
