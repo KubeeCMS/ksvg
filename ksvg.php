@@ -2,7 +2,7 @@
 /*
 Plugin Name: 	KSVG Support
 Plugin URI:		https://github.com/KubeeCMS/ksvg/
-Description: 	Upload SVG files to the Media Library and render SVG files inline for direct styling/animation of an SVG's internal elements using CSS/JS.
+Description: 	Upload SVG files to the Media Library and render inline for direct styling/animation of an SVG's internal elements using CSS/JS.
 Version: 		2.3.19
 Author: 		KubeeCMS
 Author URI: 	https://github.com/KubeeCMS
