@@ -3,7 +3,7 @@
 Plugin Name: 	KSVG Support
 Plugin URI:		https://github.com/KubeeCMS/ksvg/
 Description: 	Upload SVG files to the Media Library and render inline for direct styling/animation of an SVG's internal elements using CSS/JS.
-Version: 		2.3.19
+Version: 		2.3.21
 Author: 		KubeeCMS
 Author URI: 	https://github.com/KubeeCMS
 Text Domain: 	svg-support
@@ -22,7 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 /**
  * Global variables
  */
-$svgs_plugin_version = '2.3.19';									// for use on admin pages
+$svgs_plugin_version = '2.3.21';									// for use on admin pages
 $plugin_file = plugin_basename(__FILE__);							// plugin file for reference
 define( 'BODHI_SVGS_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );	// define the absolute plugin path for includes
 define( 'BODHI_SVGS_PLUGIN_URL', plugin_dir_url( __FILE__ ) );		// define the plugin url for use in enqueue
@@ -67,4 +67,3 @@ if ( empty( $svgs_plugin_version_stored ) ) {
 	update_option( 'bodhi_svgs_plugin_version', $svgs_plugin_version );
 
 }
-
